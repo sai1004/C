@@ -1,15 +1,15 @@
 #include<stdio.h>
 
-int main (
+int main {
 
   int l, b, area;
   
-  printf("\n Enter the Lenth: " );  
-  scanf(" %d ", &l );
-  printf("\n Enter the Bredth: ");
-  scanf(" %d ", &b );
+  printf("\n Enter the Lenth: " ); /* printf is the out put  */ 
+  scanf(" %d ", &l );  /* %d is used to call the intiger var/value */
+  printf("\n Enter the Breadth: ");
+  scanf(" %d ", &b );    /* scanf is the in-put  */
   area = l * b;
   printf("\n the area is %d ", area );
   
   
-);
+};
