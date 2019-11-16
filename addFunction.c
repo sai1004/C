@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main() {
  
- int num1 , int num2, int total; 
+ int num1; int num2; int total; 
  
  printf("Enter The num1 Value: ");
  scanf(" %d ", &num1);
@@ -11,7 +11,7 @@ int main() {
  total = add(num1,num2);
  printf("The Total is %d :", total);
 
-};
+}
 
 int add(int m, int n) {
 
@@ -20,4 +20,4 @@ int add(int m, int n) {
     
     return sum;
 
-};
+}
