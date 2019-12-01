@@ -26,7 +26,7 @@ int a30;
 
 /* types of var's in c are:
 
-    1. logical 
+    1. local 
     2. global
     3. static
     4. automatic
