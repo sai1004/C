@@ -3,7 +3,7 @@
 
 int main()
 {
-/* A Program To shutdown The Computer Instantly*/
+/* A Program To shutdown The Computer Instantly without asking any admin permission */
     system("shutdown now");
 
     return 0;
