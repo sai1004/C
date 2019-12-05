@@ -1,22 +1,18 @@
-
 # C-Lang
 
 https://www.cyberciti.biz/faq/centos-rhel-7-redhat-linux-install-gcc-compiler-development-tools/
- 
 
-to run c file in linux need gcc complier 
+to run c file in linux need gcc complier
 
-
-use nano text editor 
+use nano text editor
 
 #include<stdio.h>
 int main(void){
-	printf("Hello World!\n");
-	return 0;
+printf("Hello World!\n");
+return 0;
 }
 
 gcc first.c -o first
 
- ./foo
+./foo
 Hello World!
-
